@@ -3,45 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charity Water Landing Page</title>
+    <title>charity: water - Start Knowing Your Impact</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Adobe Fonts (Proxima Nova) -->
+    <link rel="stylesheet" href="https://use.typekit.net/[YOUR-KIT-CODE].css">
 </head>
 <body>
-    <!-- Hero Section: This is the main banner at the top of the page -->
-    <section class="hero">
-        <!-- Main headline -->
-        <h1>Clean Water for Everyone</h1>
-        <!-- Subheadline -->
-        <p>Join us in bringing safe, clean water to communities in need.</p>
-    </section>
-
-    <!-- Story Section: This tells the story of the nonprofit -->
-    <section class="story">
-        <h2>Our Story</h2>
-        <p>
-         
-    </section>
-
-    <!-- Real-World Impact Story Section -->
-    <section class="impact-story">
-        <!-- Section headline -->
-        <h2>Real Impact: Meet Amina</h2>
-        <!-- Container for image and text -->
-        <div class="impact-content">
-            <!-- Impact image -->
-            <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80" alt="Amina smiling with clean water" class="impact-image">
-            <!-- Impact story text -->
-            <p>
-                Amina used to walk miles every day to collect water for her family. Thanks to your support, her village now has a clean water well. Amina can go to school and her family is healthier and happier.
-            </p>
+    <!-- Header with logo and navigation -->
+    <header class="site-header">
+        <div class="header-inner">
+            <a href="/" class="logo">
+                <!-- Replace with actual logo once available -->
+                <img src="img/charitywater_logo_horizontal_WhiteText.png" alt="charity: water" class="logo-image">
+            </a>
+            <nav class="header-nav">
+                <a href="#" class="btn btn-secondary">SIGN IN</a>
+                <a href="#" class="btn btn-primary">DONATE</a>
+            </nav>
         </div>
-    </section>
+    </header>
 
-    <!-- Call-to-Action Section: This encourages visitors to take action -->
-    <section class="call-to-action">
-        <h2>Make a Difference</h2>
-        <p>Your support can help save lives. Every donation brings us closer to a world with clean water for all.</p>
-        <a href="#" class="donate-button">Donate Now</a>
+    <!-- Hero Section with impact message -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="text-highlight">STOP</span> WONDERING IF<br>
+                    YOUR DONATION<br>
+                    <span class="text-normal">MATTERS.</span><br>
+                    <span class="text-highlight">START</span> KNOWING.
+                </h1>
+                <p class="hero-sub">
+                    Fund clean water projects with 100% transparency, connect with the
+                    communities you help, and build your network of changemakers who are
+                    solving the global water crisis together.
+                </p>
+            </div>
+            <div class="hero-image">
+                <!-- Placeholder image - replace with actual project photo -->
+                <img src="img/4750_Ethiopia_2019_CG-.jpg" 
+                     alt="Clean water project impact" class="impact-photo">
+            </div>
+        </div>
+        <!-- Donation amount form -->
+        <div class="signup-form">
+            <form action="#" method="POST" class="form-inline">
+                <input type="text" placeholder="Give $30 to fund clean water today" class="form-input" required>
+                <button type="submit" class="btn btn-accent">DONATE NOW</button>
+            </form>
+        </div>
+        <div class="hero-shape"></div>
     </section>
 </body>
 </html>
